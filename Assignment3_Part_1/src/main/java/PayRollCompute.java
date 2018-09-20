@@ -2,6 +2,7 @@
 public class PayRollCompute implements ComputeSalary, ComputeTax {
 	ComputeSalary cs;
 	ComputeTax ct;
+	
 
 	public double computeTax(int amount) {
 		// TODO Auto-generated method stub
